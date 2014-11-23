@@ -9,5 +9,5 @@ page = response.read().decode('utf-8') # page - скачиваем страни�
 soup = BeautifulSoup(page)
 text = soup.findAll("div", {"class": "hyphenate"})
 
-print(h2)
+# print(h2)
 print(text)
